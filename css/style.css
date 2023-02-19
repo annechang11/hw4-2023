@@ -73,8 +73,8 @@ div img{
 
   /* Requirement 9 code here -- Do not remove this comment. */
 .text{
-  text-align: center;
-  height: 40vh;
+  margin: auto;
+  max-height: 40vh;
   overflow: scroll;
   }
 
@@ -116,17 +116,18 @@ div img{
 
   /* Requirement 13 code here -- Do not remove this comment. */
   .about, .method, .clients-image, .contact-image{
-    grid-column: 3 / span 5;
+    grid-column: 3 / 5;
   }
 
   /* Requirement 14 code here -- Do not remove this comment. */
   .clients, .contact, .about-image, .method-image{
-    grid-column: 2 / span 4;
+    grid-column: 2 / 4;
   }
 
   /* Requirement 15 code here -- Do not remove this comment. */
   .image{
-    display: block;
+    /* display: block; */
+    overflow: hidden;
   }
 }
 /** Code for prefers reduced motion **/
