@@ -125,8 +125,10 @@ div img{
   }
 
   /* Requirement 15 code here -- Do not remove this comment. */
-  .image{
-    object-fit: cover;
+  .about-image, .clients-image, .contact-image, .method-image{
+    display: block;
+    /* object-fit: cover; */
+    overflow: hidden;
   }
 }
 /** Code for prefers reduced motion **/
