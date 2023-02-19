@@ -73,7 +73,7 @@ div img{
 
   /* Requirement 9 code here -- Do not remove this comment. */
 .text{
-  margin: auto;
+  align-self: center;
   max-height: 40vh;
   overflow: scroll;
   }
@@ -126,8 +126,7 @@ div img{
 
   /* Requirement 15 code here -- Do not remove this comment. */
   .image{
-    /* display: block; */
-    overflow: hidden;
+    object-fit: cover;
   }
 }
 /** Code for prefers reduced motion **/
